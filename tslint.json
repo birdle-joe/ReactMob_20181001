@@ -1,0 +1,27 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts"
+    ]
+  },
+  "rules": {
+    "no-empty": false,
+    "no-console": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "prefer-const": false,
+    "jsx-boolean-value": false,
+    "await-promise": true,
+    "curly": true,
+    "no-bitwise": false,
+    "member-ordering": false,
+    "variable-name": false,
+    "max-classes-per-file": false,
+    "class-name": false,
+    // tsx的标签中间无内容时，是否必须闭合
+    "jsx-self-close": false,
+    "jsx-no-string-ref": false
+  }
+}
